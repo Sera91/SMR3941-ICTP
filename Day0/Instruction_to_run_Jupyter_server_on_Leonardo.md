@@ -1,15 +1,8 @@
 #On Leonardo
-go in the Scratch area of your account:
 
-$ cd $SCRATCH
+Once you login to Leonardo and you cloned the Github repo in the Scratch area (following instructions in the file First_instructions.md), you can go into Day0 folder in the Github repo using the command:
 
-pull the more recent version of the Github repo:
-
-$ git clone https://github.com/Sera91/SMR3941-ICTP.git
-
-go into Day0 folder in the Github repo using the command:
-
-$ cd SMR3941/Day0
+$ cd $SCRATCH/SMR3941-ICTP/Day0
 
 run the script to setup the conda envinronment and Jupyter configuration:
 
@@ -50,6 +43,16 @@ where
 and then open the web browser (from the application of your choice: Firefox, Chrome..) and paste in the address bar the HTTP address that you copied from the "jupyter_notebook.txt" file.
 
 # What to do after finishing the session with jupyter server on leonardo
+
+## On Leonardo
+You need to cancel the running job
+
+$ squeue -u $USER
+
+$ scancel JOBID 
+
+## On your machine
+
 
  1. Search for tcp connection still opened
  2. Print the PID associated to the tcp connection opened on CINECA cluster
