@@ -1,10 +1,21 @@
 # SMR3941-ICTP
-Official repo for the ICTP/School on Applied ML
+Official repo for the ICTP School on Applied ML, organized in Trieste from May 27th to June 1st 2024.
 
-To connect to HPC systems at CINECA you can use the command:
+## Lecturers of the school
 
-ssh -o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -o "LogLevel ERROR" $USER@login.leonardo.cineca.it
+Matteo Angelinelli (CINECA)
+Cristiano De Nobili (PI School, Rome)
+Iacolo Colonnelli (University of Turin)
+​Gabriel Fonseca-Guerra (INTEL)
+Jarvist Frost (Imperial College London)
+Caroline Heneka (University of Heidelberg)
+Ashish Mandalore (INTEL)
+Gianluca Mittoner (University of Turin)
+Emanuele Panizon (Area Science Park, Trieste)
+Nabeel Seedat (Cambridge)
+​Savannah Thais (Columbia University, New York)
+Paolo Viviani (LINKS foundation/B-CRATOS)
 
-where $USER is your account on CINECA
 
-The horrible string '-o "StrictHostKeyChecking=no" -o "UserKnownHostsFile=/dev/null" -o "LogLevel ERROR"'  is needed to avoid the annoying error message about know_host file
+
+
