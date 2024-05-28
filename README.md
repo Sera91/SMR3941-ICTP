@@ -3,18 +3,18 @@ Official repo for the ICTP School on Applied ML, organized in Trieste from May 2
 
 ## Lecturers of the school
 
-Matteo Angelinelli (CINECA)
-Cristiano De Nobili (PI School, Rome)
-Iacolo Colonnelli (University of Turin)
-​Gabriel Fonseca-Guerra (INTEL)
-Jarvist Frost (Imperial College London)
-Caroline Heneka (University of Heidelberg)
-Ashish Mandalore (INTEL)
-Gianluca Mittoner (University of Turin)
-Emanuele Panizon (Area Science Park, Trieste)
-Nabeel Seedat (Cambridge)
-​Savannah Thais (Columbia University, New York)
-Paolo Viviani (LINKS foundation/B-CRATOS)
+ -  Matteo Angelinelli (CINECA)
+ -  Cristiano De Nobili (PI School, Rome)
+ -  Iacolo Colonnelli (University of Turin)
+​ -  Gabriel Fonseca-Guerra (INTEL)
+ -  Jarvist Frost (Imperial College London)
+ -  Caroline Heneka (University of Heidelberg)
+ -  Ashish Mandalore (INTEL) 
+ -  Gianluca Mittoner (University of Turin)
+ -  Emanuele Panizon (Area Science Park, Trieste)
+ -  Nabeel Seedat (Cambridge)
+ -  ​Savannah Thais (Columbia University, New York)
+ -  Paolo Viviani (LINKS foundation/B-CRATOS)
 
 
 
