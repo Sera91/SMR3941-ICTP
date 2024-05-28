@@ -61,14 +61,23 @@ $ scancel JOBID
 To search which tcp connections are opened you can use the command:
 $ tail -10 /etc/services
 
-to print the PID type the following command on the local terminal:
+If you are a Linux user to print the PID type the following command on the local terminal :
 
 $ fuser 8888/tcp
 (this command will print the PID of the process listening the port in the format "8888/tcp:   PID")
 
+If you are Windows user you can print the PID with the command:
+$ netstat -a -n -o | findstr "88XX"
 
-To kill the job (and the associated tcp connection) type:
+
+
+
+If you are a Linux user To kill the job (and the associated tcp connection) you should type:
 $ kill -9 PID
+
+If you are a windows user you can type the following command
+
+taskkill /pid PID /f
 
 
 
