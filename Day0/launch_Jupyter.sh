@@ -23,6 +23,7 @@ module load openmpi/4.1.4--gcc--11.3.0-cuda-11.8
 module load llvm/13.0.1--gcc--11.3.0-cuda-11.8  
 module load nccl/2.14.3-1--gcc--11.3.0-cuda-11.8
 module load gsl/2.7.1--gcc--11.3.0-omp
+module load fftw/3.3.10--gcc--11.3.0
 
 
 conda activate /leonardo/pub/usertrain/a08trc01/env/SMR3941
@@ -35,6 +36,11 @@ XDG_RUNTIME_DIR=""
 node=$(hostname -s)
 user=$(whoami)
 portval=88$(whoami | cut -b 7-9)
+
+#portval=88$(whoami | cut -b 7)0
+#portval=`expr $portval + 50`
+#portval=`expr $portval + 17`
+
 
 # print tunneling instructions jupyter-log
 echo -e "
