@@ -1,0 +1,13 @@
+name: tutorial-env
+channels:
+    - conda-forge
+    - conda
+dependencies:
+    - python=3.10.5
+    - numpy
+    - matplotlib
+    - scipy
+    - astropy
+    - tensorflow=2.9.1
+    - scikit-learn
+    - shap
