@@ -12,7 +12,7 @@
 #SBATCH --error=jupyter_notebook.err
 
 
-cd $SCRATCH/SMR-3935/Day4
+cd $SCRATCH/SMR3941-ICTP/
 
 source $HOME/Conda_init.txt
 
