@@ -58,21 +58,26 @@ if __name__ == "__main__":
 	parser.add_argument("--test-samples", default=-1, type=int, help="Test samples to load")
 	parser.add_argument("--lr", default=0.001, type=int, help="Learning rate")
 	parser.add_argument("--momentum", default=0.9, type=int, help="momentum")
-	parser.add_argument("--seed", type=int, required=True, help="Data partitioning seed")
+	parser.add_argument("--seed", type=int, default=42, help="Data partitioning seed")
+	parser.add_argument("--cpu", action='store_true', help="Force CPU usage")
 	args = parser.parse_args()
 
 	print(f"*** FL simulation setup: clients->{args.clients}, rounds->{args.clients}, seed->{args.seed} epochs->{args.epochs} ***")
 
-	# Verifying CUDA availability
-	is_cuda_available=torch.cuda.is_available()
-	device=torch.device(0 if torch.cuda.is_available() else "cpu")
-	torch.cuda.set_device(0)
-	
-	print(f"PyTorch CUDA availability: {torch.cuda.is_available()}")
-	print(f"Currently used device: {device}")
-	if is_cuda_available:
-		print(f"Number of available GPUs: {torch.cuda.device_count()}")	
-		print(f"Device type: {torch.cuda.get_device_name(device)}")
+	if args.cpu:
+		print("Forcing CPU usage")
+		device=torch.device("cpu")
+	else:
+		# Verifying CUDA availability
+		is_cuda_available=torch.cuda.is_available()
+		device=torch.device(0 if torch.cuda.is_available() else "cpu")
+		torch.cuda.set_device(0)
+		
+		print(f"PyTorch CUDA availability: {torch.cuda.is_available()}")
+		print(f"Currently used device: {device}")
+		if is_cuda_available:
+			print(f"Number of available GPUs: {torch.cuda.device_count()}")	
+			print(f"Device type: {torch.cuda.get_device_name(device)}")
 		
 	# Simulation starts
 	main(args, device)
