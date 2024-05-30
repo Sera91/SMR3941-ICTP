@@ -4,6 +4,7 @@ Official repo for the ICTP School on Applied ML, organized in Trieste from May 2
 ## Lecturers of the school
 
  -  Matteo Angelinelli (CINECA)
+ -  Nicola Demo (SISSA MATHLAB)
  -  Cristiano De Nobili (PI School, Rome)
  -  Iacopo Colonnelli (University of Turin)
  -  Gabriel Fonseca-Guerra (INTEL)
