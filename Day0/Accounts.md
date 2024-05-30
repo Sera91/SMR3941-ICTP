@@ -35,7 +35,7 @@
 34) SIMOU Mohamed Rabii: a08trc0r
 35) SINGH Kunal Santoshkumar: a08trc0u
 36) SONG Sha: a08trc0v
-37) SPADA Simone: a08trc0u
+37) SPADA Simone: a08trc0z
 38) TOODEH FADAVI Setareh: a08trc0w
 39) VIZZO Paolo: a08trc1a
 40) ZIVANOVIC Uros: a08trc1b
