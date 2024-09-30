@@ -26,9 +26,9 @@ module load gsl/2.7.1--gcc--11.3.0-omp
 module load fftw/3.3.10--gcc--11.3.0
 
 
-conda activate /leonardo/pub/usertrain/a08trc01/env/SMR3941
+#conda activate /leonardo/pub/usertrain/a08trc01/env/SMR3941
 
-#conda activate /leonardo/pub/userexternal/sdigioia/sdigioia/env/Gabenv
+conda activate /leonardo/pub/userexternal/sdigioia/sdigioia/env/Gabenv
 
 
 # get tunneling info
